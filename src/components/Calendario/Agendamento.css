@@ -1,0 +1,31 @@
+.Calendario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Calendario img {
+    margin-top: -5rem;
+    width: 10rem;
+    height: 5rem ;
+}
+.Calendario h1 { 
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.Calendario p{ 
+    font-size: 0.7rem;
+    color:  #57BE76;
+    margin: 1rem;
+}
+.Calendario h2 { 
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.Bnt button{
+    border-radius: none;
+    background: #83CA98;
+    width: 30px;
+    height: 30px;
+}

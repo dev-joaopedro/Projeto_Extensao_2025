@@ -1,0 +1,140 @@
+.pagina {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bloco-conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.topo {
+  margin-bottom: 20px;
+}
+
+.imagem-logo {
+  width: 120px;
+}
+
+.corpo {
+  font-size: 15px;
+  color: #444;
+  text-align: center;
+}
+
+.cartao-agendamento-marca {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 20px 0;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+.data-agendamento {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.data {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.hora {
+  color: #1a8e5f;
+  font-weight: bold;
+}
+
+.informacoes-paciente,
+.informacoes-profissional {
+  margin-bottom: 16px;
+}
+
+.botao-agendar-marca {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.botao-agendar-marca:hover {
+  background-color: #d32f2f;
+}
+
+/* Estilo para o componente Horarios */
+
+.container-horarios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  border: 1px solid red;
+  height: auto;
+  width: 100%;
+}
+
+.cabecalho-data {
+  margin-bottom: 20px;
+}
+
+.cabecalho-data h1 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.destaque {
+  color: #1a8e5f;
+}
+
+.agendamentos {
+  width: 100%;
+}
+
+.cartao-agendamento-horarios {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 18px;
+  margin: 20px 0;
+  background-color: #fafafa;
+  text-align: left;
+}
+
+.informacoes-agendamento {
+  margin-bottom: 16px;
+}
+
+.botao-remover-horarios {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.botao-remover-horarios:hover {
+  background-color: #d32f2f;
+}

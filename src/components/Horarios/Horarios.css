@@ -1,0 +1,64 @@
+.container-horarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.cabecalho-data {
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.cabecalho-data h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.cabecalho-data .destaque {
+    color: #1a8e5f;
+    font-weight: bold;
+}
+
+.agendamentos {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cartao-agendamento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.informacoes-agendamento {
+    font-size: 14px;
+    color: #333;
+}
+
+.botao-remover {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin: 0.5rem;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.botao-remover:hover {
+    background-color: #d32f2f;
+}
